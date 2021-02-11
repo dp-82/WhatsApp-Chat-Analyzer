@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".GraphsFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/show_stats_for"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerGraphs"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewGraphs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sent_messages"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                style="@style/graph_text_layout"
+                android:text="@string/by_hour" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lcEachHour"
+                style="@style/graphs_chart_style" />
+
+            <TextView
+                style="@style/graph_text_layout"
+                android:text="@string/by_week_day" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/bcEachDay"
+                style="@style/graphs_chart_style" />
+
+            <TextView
+                style="@style/graph_text_layout"
+                android:text="@string/by_month" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lcEachMonth"
+                style="@style/graphs_chart_style" />
+
+            <TextView
+                style="@style/graph_text_layout"
+                android:text="@string/by_year" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/bcEachYear"
+                style="@style/graphs_chart_style" />
+
+            <TextView
+                style="@style/graph_text_layout"
+                android:text="@string/by_author_s" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieEachUser"
+                style="@style/graphs_chart_style" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

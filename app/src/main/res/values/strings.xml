@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">WhatsApp Chat Analyzer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="stepsToUseThisApp">
+        1. Open WhatsApp \n
+        2. Open the individual or group chat \n
+        3. Tap ⋮ chat options \n
+        4. Tap More \n
+        5. Tap export chat \n
+        6. Choose export without media files \n
+        7. Select WhatsApp Chat Analyzer \n
+    </string>
+
+    <string name="aboutApp">
+        ~ WhatsApp Chat Analyzer is an app which simply reads the
+          exported chat txt file , and produces the results.\n
+        ~ All analysis is done locally in your app only.\n
+        ~ We do not store any data.\n
+        ~ We do not share data to any third party.\n
+        ~ Privacy is our first priority.\n
+    </string>
+
+    <string name="aboutWhatsApp">
+        ~ This app does not have any constraints on number of messages to analyze.\n
+        ~ Unfortunately WhatsApp provides upto 40000 recent messages only.\n
+        ~ All results shown in app are based on that data only.\n\n
+
+        Click on Go to fetch results.
+    </string>
+
+    <string name="summary">Summary</string>
+    <string name="stats">Stats</string>
+    <string name="graphs">Graphs</string>
+    <string name="follow_below_steps_to_anlyze_your_chat">Follow below steps to anlyze your chat</string>
+    <string name="show_stats_for">Show stats for</string>
+    <string name="most_used_word">Most used word</string>
+    <string name="data_not_found">Data not Found</string>
+    <string name="sent_words">Sent words</string>
+    <string name="_0">0</string>
+    <string name="sent_messages">Sent messages</string>
+    <string name="photos_videos_voice_messages">Photos/videos/voice messages</string>
+    <string name="sent_longest_message">Sent longest message</string>
+    <string name="chatted_days">Chatted days</string>
+    <string name="sent_late_night_messages">Sent late night messages</string>
+    <string name="sent_early_morning_messages">Sent early morning messages</string>
+    <string name="sent_links">Sent links</string>
+    <string name="by_hour">By hour</string>
+    <string name="by_week_day">By week day</string>
+    <string name="by_author_s">By author(s)</string>
+    <string name="by_year">By year</string>
+    <string name="by_month">By month</string>
+    <string name="most_consecutive_days_chatted">Most consecutive days chatted</string>
+    <string name="no_one">No one</string>
+    <string name="initiator">🏁Initiator🏁</string>
+    <string name="night_owl">🌙Night owl🌙</string>
+    <string name="no_messages_sent_in_the_interval_9pm_4am">No messages sent in the interval 9PM-4AM</string>
+    <string name="no_messages_sent_in_the_interval_5am_12pm">No messages sent in the interval 5AM-12PM</string>
+    <string name="early_bird">🌞Early bird🌞</string>
+    <string name="no_links_were_sent">No links were sent</string>
+    <string name="linker">🔗 Linker 🔗</string>
+    <string name="no_photos_videos_or_voice_messages_were_sent">No photos, videos or voice messages were sent</string>
+    <string name="non_texual">📸 Non Texual 📸</string>
+    <string name="no_messages_were_sent">No messages were sent</string>
+    <string name="talkactive">💬Talkactive 💬</string>
+    <string name="you_have_been_chatting_since_1947_with_an_average_of_82_messages_per_day">You have been chatting since 1947 with an average of 82 messages per day</string>
+    <string name="days">Days</string>
+    <string name="users">Users</string>
+    <string name="messages">Messages</string>
+    <string name="about_app">About App</string>
+    <string name="fetching_results">Fetching results</string>
+    <string name="app_logo">App Logo</string>
+    <string name="go">Go</string>
+    <string name="chat_analyzer">WhatsApp Chat Analyzer</string>
+    <string name="developed_by_dharmaraju_pilli">Developed by Dharmaraju Pilli</string>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyzeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/boarder_shape"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/show_stats_for"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerAnalytics"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/linear_layout_style"
+                android:background="@drawable/boarder_shape">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/most_used_word" />
+
+                <TextView
+                    android:id="@+id/tvMostUsedWord"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/data_not_found" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_layout_style">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/sent_words" />
+
+                <TextView
+                    android:id="@+id/tvSentWords"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_style"
+                android:background="@drawable/boarder_shape">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/sent_messages" />
+
+                <TextView
+                    android:id="@+id/tvSentMessages"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_layout_style">
+
+                <TextView
+
+                    style="@style/analyze_top_layout"
+                    android:text="@string/photos_videos_voice_messages" />
+
+                <TextView
+                    android:id="@+id/tvSentPhotoVideoVoiceMessages"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_style"
+                android:background="@drawable/boarder_shape">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/sent_links" />
+
+                <TextView
+                    android:id="@+id/tvSentLinks"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_style"
+                android:background="@drawable/boarder_shape">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/sent_early_morning_messages" />
+
+                <TextView
+                    android:id="@+id/tvEarlyMorningMessages"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_layout_style">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/sent_late_night_messages" />
+
+                <TextView
+                    android:id="@+id/tvLateNightMessages"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_style"
+                android:background="@drawable/boarder_shape">
+
+                <TextView
+                    style="@style/analyze_top_layout"
+                    android:text="@string/chatted_days" />
+
+                <TextView
+                    android:id="@+id/tvChattedDays"
+                    style="@style/analyze_middle_layout"
+                    android:text="@string/_0" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_layout_style">
+
+                <TextView
+
+                    style="@style/analyze_top_layout"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/sent_longest_message" />
+
+                <TextView
+                    android:id="@+id/tvLongestMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boarder_shape"
+                    android:fontFamily="@font/open_sans_light"
+                    android:padding="16dp"
+                    android:text="@string/data_not_found"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

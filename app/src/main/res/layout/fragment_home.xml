@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:background="@drawable/boarder_shape">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvMessages"
+                    style="@style/top_style"
+                    android:text="@string/_0"
+                    tools:layout_editor_absoluteX="68dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <TextView
+                    android:id="@+id/tvUsers"
+                    style="@style/top_style"
+                    android:text="@string/_0"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/tvMessages"
+                    tools:layout_editor_absoluteX="201dp" />
+
+                <TextView
+                    android:id="@+id/tvDays"
+                    style="@style/top_style"
+                    android:text="@string/_0"
+                    tools:layout_editor_absoluteX="323dp"
+                    tools:layout_editor_absoluteY="32dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="@string/messages"
+                    android:textSize="25sp"
+                    tools:layout_editor_absoluteX="68dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:text="@string/users"
+                    android:textSize="25sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/tvMessages"
+                    tools:layout_editor_absoluteX="201dp" />
+
+                <TextView
+                    android:layout_width="27dp"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/days"
+                    android:textSize="25sp"
+                    tools:layout_editor_absoluteX="323dp"
+                    tools:layout_editor_absoluteY="32dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/you_have_been_chatting_since_1947_with_an_average_of_82_messages_per_day"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:background="@drawable/boarder_shape">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/talkactive" />
+
+            <TextView
+                android:id="@+id/tvMostTalkActivePerson"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvMostTalkActivePersonPercentage"
+                style="@style/end_layout"
+                android:text="@string/no_messages_were_sent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_style">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/non_texual" />
+
+            <TextView
+                android:id="@+id/tvInfluencer"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvInfluencerPersonPercentage"
+                style="@style/end_layout"
+                android:text="@string/no_photos_videos_or_voice_messages_were_sent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:background="@drawable/boarder_shape">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/linker" />
+
+            <TextView
+                android:id="@+id/tvLinker"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvLinkerPersonPercentage"
+                style="@style/end_layout"
+                android:text="@string/no_links_were_sent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_style">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/early_bird" />
+
+            <TextView
+                android:id="@+id/tvEarlyBird"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvEarlyBirdPersonPercentage"
+                style="@style/end_layout"
+                android:text="@string/no_messages_sent_in_the_interval_5am_12pm" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:background="@drawable/boarder_shape">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/night_owl" />
+
+            <TextView
+                android:id="@+id/tvNightOwl"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvNightOwlPercentage"
+                style="@style/end_layout"
+                android:text="@string/no_messages_sent_in_the_interval_9pm_4am" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_style">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/initiator" />
+
+            <TextView
+                android:id="@+id/tvInitiator"
+                style="@style/middle_layout"
+                android:text="@string/no_one" />
+
+            <TextView
+                android:id="@+id/tvInitiatorPercentage"
+                style="@style/end_layout"
+                android:text="" />
+        </LinearLayout>
+
+        <!--            <LinearLayout-->
+        <!--                style="@style/linear_layout_style"-->
+        <!--                android:background="@drawable/boarder_shape">-->
+
+        <!--                <TextView-->
+        <!--                    style="@style/title_layout"-->
+        <!--                    android:text="😘Emojian😘" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/tvEmojiLoverName"-->
+        <!--                    style="@style/middle_layout"-->
+        <!--                    android:text="No one" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/tvEmojiLoverPercentage"-->
+        <!--                    style="@style/end_layout"-->
+        <!--                    android:text="" />-->
+        <!--            </LinearLayout>-->
+
+        <LinearLayout style="@style/linear_layout_style"
+            android:background="@drawable/boarder_shape">
+
+            <TextView
+                style="@style/title_layout"
+                android:text="@string/most_consecutive_days_chatted" />
+
+            <TextView
+                android:id="@+id/tvMostConsecutiveDaysChatted"
+                style="@style/middle_layout"
+                android:text="@string/_0" />
+
+            <TextView
+                android:id="@+id/tvMostConsecutiveDaysChattedDates"
+                style="@style/end_layout"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

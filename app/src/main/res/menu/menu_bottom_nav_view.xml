@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bnvHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/summary" />
+    <item
+        android:id="@+id/bnvAnalyze"
+        android:icon="@drawable/ic_analyze"
+        android:title="@string/stats" />
+    <item
+        android:id="@+id/bnvGrapghs"
+        android:icon="@drawable/ic_gragh"
+        android:title="@string/graphs" />
+</menu>
