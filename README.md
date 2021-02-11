@@ -6,11 +6,18 @@ It is an android application developed using Kotlin language with the help of An
 ∗ The most used word in the chat and the longest text message in the group chat.<br/>
 • It helps to find the busiest hour,month,year and also helps to analyze the behaviour of each user.<br/>
 
+App Screenshots <br/>
+
+1.SplashScreen<br/>
 
 ![ScreenShot1](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/1.jpg)
 
+2.Home<br/>
+
 ![ScreenShot2](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/2.jpg)
 
+3.Stats<br/>
 ![ScreenShot3](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/3.jpg)
 
+4.Grapghs<br/>
 ![ScreenShot4](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/4.jpg)
