@@ -19,5 +19,5 @@ App Screenshots <br/>
 3.Stats<br/>
 ![ScreenShot3](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/3.jpg)
 
-4.Grapghs<br/>
+4.Graghs<br/>
 ![ScreenShot4](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/4.jpg)
