@@ -10,14 +10,14 @@ App Screenshots <br/>
 
 1.SplashScreen<br/>
 
-![ScreenShot1](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/1.jpg)
+![ScreenShot1](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/1.jpg)<br/><br/>
 
 2.Home<br/>
 
-![ScreenShot2](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/2.jpg)
+![ScreenShot2](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/2.jpg)<br/><br/>
 
 3.Stats<br/>
-![ScreenShot3](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/3.jpg)
+![ScreenShot3](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/3.jpg)<br/><br/>
 
 4.Graghs<br/>
-![ScreenShot4](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/4.jpg)
+![ScreenShot4](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/4.jpg)<br/><br/>
