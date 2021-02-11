@@ -7,3 +7,4 @@ It is an android application developed using Kotlin language with the help of An
 • It helps to find the busiest hour,month,year and also helps to analyze the behaviour of each user.<br/>
 
 
+![SplashScreenPhot](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/1.jpg)
