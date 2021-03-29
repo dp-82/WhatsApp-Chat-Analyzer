@@ -14,7 +14,7 @@ App Screenshots <br/>
 
 2.Home<br/>
 
-![ScreenShot2](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/2.jpg)<br/><br/>
+![ScreenShot2](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/82.jpg)<br/><br/>
 
 3.Stats<br/>
 ![ScreenShot3](https://github.com/dp-82/WhatsApp-Chat-Analyzer/blob/master/app/src/main/res/drawable/3.jpg)<br/><br/>
